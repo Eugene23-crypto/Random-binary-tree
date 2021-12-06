@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.856);
+}
+
+.container {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    top: 4%;
+}
+
+#activity {
+    color: aqua;
+    text-align: center;
+    top: -10px;
+    position: relative;
+}
+
+#detail {
+    position: relative;
+    width: 80%;
+    left: 10%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+#tree {
+    position: relative;
+    width: 90%;
+    height: 100%;
+    background-color: white;
+    overflow: auto;
+    border-radius: 10px;
+    margin-top: 1px;
+    left: 5%;
+}
